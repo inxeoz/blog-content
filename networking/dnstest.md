@@ -1,5 +1,5 @@
 ---
-title: *.test
+title: dnstest
 date: 2025-12-10T18:13:33Z
 lastmod: 2025-12-10T18:13:33Z
 description: Setting up local *.test DNS resolution without breaking system DNS
