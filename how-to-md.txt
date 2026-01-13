@@ -12,6 +12,6 @@ permalink: posts/{{ title | slug }}/index.html
 tags: [tag1, tag2, tag2] 
 ---
 ```
-3. infer tags, description , title from conten md file for which details will being update
+3. infer tags, description , title from content md file for which details will being update
 
 4. if md file has header section then update date to update_date
