@@ -21,6 +21,16 @@ Inside your VM (e.g., Rocky Linux, Ubuntu), ensure the SSH server is active:
 
 ### 2. Map the Port via the Host
 
+List Running VMs
+```
+virsh -c qemu:///session list --all
+```
+
+Start Vm if not started 
+```
+virsh -c qemu:///session start VM_NAME
+```
+
 On an Arch Linux host using GNOME Boxes/KVM, run this command while the VM is running:
 
 ```bash
