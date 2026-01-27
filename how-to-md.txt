@@ -1,9 +1,0 @@
-YAML front matter headers have been removed from all markdown files.
-
-All markdown content now starts directly with the main heading (# Title).
-
-The process_md.py script is no longer used as headers have been removed.
-If you need to restore headers in the future, you can use process_md.py.
-
-To remove headers from new markdown files, use remove_headers.py script.
-
