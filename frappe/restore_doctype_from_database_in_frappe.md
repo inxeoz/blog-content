@@ -40,7 +40,7 @@ Before restoring a Frappé database, follow this complete workflow to ensure a s
 Prevent users from accessing the site during restore:
 
 ```bash
-bench --site [your-site] maintenance-mode on
+bench --site [your-site] set-maintenance-mode on
 ```
 
 #### 1.2 Disable Scheduler
